@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+/* First nav */
+.navbar ul li{
+    color: white;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar ul {
+    color: white;
+    text-align: end;
+    width: 80%;
+}
+.navbar ul li:hover{
+    color: rgba(27, 235, 12, 0.995);
+}
+
+/* second nav */
+nav .imgcontainer{
+    width: 51%;
+    text-align: center;
+    height: fit-content;
+}
+/* .nav2{
+    max-width: 100%;
+
+} */
+nav .drp2{
+    width: max-content;
+    background-color: black;
+}
+nav .drp2 li a{
+    color: rgb(255, 255, 255); 
+    
+}
+nav .drp2 li a:hover{
+    background-color: rgb(6, 38, 135); 
+    color: white;
+}
+.nav-item a{
+    color: black;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    background-color: rgb(5, 60, 96);
+    color: white;
+    border-radius: 6px;
+}
+

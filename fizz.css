@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+}
+
+/* First nav */
+.nav1 ul li {
+    color: white;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.navbar ul {
+    color: white;
+    text-align: end;
+    width: 80%;
+}
+
+.navbar ul li:hover {
+    color: rgba(27, 235, 12, 0.995);
+}
+
+/* second nav */
+nav .imgcontainer {
+    width: 50%;
+    text-align: center;
+    height: fit-content;
+}
+
+.imgcontainer img {
+    animation: Bti 3s ease-in-out 0s infinite forwards;
+}
+
+nav .drp2 {
+    width: max-content;
+    background-color: black;
+}
+
+nav .drp2 li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: start;
+
+}
+
+nav .drp2 li a:hover {
+    background-color: rgb(6, 38, 135);
+    color: white;
+}
+
+.nav-item a {
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item a:hover {
+    background-color: rgb(5, 60, 96);
+    color: white;
+    border-radius: 6px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.652);
+    margin: 5px 210px 0px 0px;
+
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: black;
+    /* background-image: url(); */
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.652);
+    margin: 5px 0px 0px 210px;
+
+}
+
+.carousel-control-next-icon:hover {
+    background-color: black;
+}
+
+.row p {
+    margin-right: 50px;
+    color: black;
+    font-family: serif;
+    /* border: 1px solid black; */
+    /* background-color: rgb(7, 125, 146); */
+}
+
+/* .container .row{
+    
+    background-image: url(https://btifoundation.com/img/home/pattern-1.jpg);
+} */
+.row h4 {
+    max-height: 10px;
+    color: rgba(0, 0, 0, 0.677);
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline; */
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.para {
+    border: 3px solid red;
+    background-image: url(https://btifoundation.com/img/home/pattern-1.jpg);
+    padding-left: 12px;
+    font-family: serif;
+
+    /* background-color: rgb(61, 46, 9); */
+}
+
+.imag {
+    border: 4px solid rgba(255, 166, 0, 0.33);
+    max-height: 400px;
+    background-color: rgb(255, 253, 224);
+
+}
+
+.imag img {
+    margin-top: 15px;
+    margin-left: 9px;
+    max-height: 392px;
+    /* background-color: white; */
+}
+
+@keyframes Bti {
+    0% {
+        width: 40%;
+    }
+
+
+    100% {
+        width: 50%;
+    }
+}
+
+/* Why Bti Foundation */
+.btiheader {
+    max-width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* text-decoration:underline; */
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btigrid {
+    background: url(images/pageTitle-bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whyfoundationgrid p {
+    font-weight: 400;
+    font-size: 1.14em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    height: 50px;
+}
+
+.whyfoundationgrid h3 {
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+
+
+.whyfoundationgrid i {
+    font-size: 1.4em;
+}
+
+/* Our best courses */
+.courses {
+    /* border: 5px solid red; */
+    max-width: 1450px;
+    background: url(images/coursesbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.courses h5 {
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(233, 244, 245);
+}
+
+.courses p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight: 100;
+    font-size: 0.9rem;
+    /* margin:3px ; */
+    /* padding: 3px; */
+}
+
+.courses h3 {
+    color: rgb(253, 253, 253);
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 37px;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    /* text-decoration-color: rgb(168, 152, 122); */
+}
+
+.courses img {
+    border-radius: 5px;
+}
+
+.courses .coursescard1 {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.courses .coursescard2 {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.courses .coursescard3 {
+    border-radius: 15px;
+    background-color: black;
+}
+
+.courses .coursescard4 {
+    border-radius: 15px;
+    background-color: black;
+}
+.courses i{
+    background-color: rgba(255, 51, 0, 0.318);
+    color: rgba(253, 215, 0, 0.862);
+    font-size: 1.0rem;
+    font-weight: 100;
+   
+}
+.courses a{
+    text-decoration: none;
+    margin-left: 18px;
+    padding-bottom: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: brown;
+}
+.courses a:hover{
+    color: green;
+}
+.vac{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+}
+.vac a{
+    border: 1px solid #1c8cef;
+    font-family: 'Roboto Condensed', sans-serif;
+    display:block;
+    font-size: 16px;
+    font-weight: 100;
+    color:#1c8cef;
+    text-align: center;
+    text-decoration: none;
+
+    width: 60%;
+    margin-left: 35px;
+}
+.vac span{
+    /* color:#1c8cef; */
+    font-weight: 800;
+    font-size: 20px;
+}
+.vac :hover{
+    color: rgb(255, 200, 0);
+}
+
+
+/* news update */
+
+
+.news{
+    max-width: 1450px;
+
+    /* border: 2px solid black; */
+}
+
+.list ul li marquee{
+    max-height: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    /* text-align: center; */
+    margin: 10px 10px 10px 10px;
+}
+.list li{
+    /* max-width: 900px; */
+    /* display: inline-block; */
+    border: 2px solid rgba(230, 226, 173, 0.53);
+}
+.list ul{
+    display: block;
+
+}
+.list ul li a:hover{
+    color: rgba(255, 111, 0, 0.851);
+    text-decoration: underline;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    color: #06f;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+.list ul li p{
+     font-size: 14px;
+     margin-top: 15px;
+     text-align: justify;
+     color: #000;
+    font-weight: 400;
+}
+.list ul h3{
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    /* width: 95%; */
+}
+.van a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    border: 1px solid blue;
+    margin:10px 0px 0px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px;
+    /* width: 69.6%; */
+}
+.van a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+
+
+/* testimonial */
+
+.testi span h2{
+    color: brown;
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Enhanced Responsive Fixes for BTI Website */
+
+@media screen and (max-width: 1200px) {
+  .container, .container-fluid {
+    padding: 0 15px;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .imgcontainer img {
+    height: 50px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar1-nav, .navbar-nav {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .nav-item, .nav-item a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .imgcontainer {
+    width: 100% !important;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .para, .imag {
+    width: 100% !important;
+    padding: 10px;
+  }
+
+  .para h4, .para p {
+    text-align: center;
+  }
+
+  .imag img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .carousel-caption {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .carousel img {
+    height: auto !important;
+    max-height: 300px;
+  }
+
+  .vac a {
+    width: 90% !important;
+    margin: 10px auto !important;
+  }
+
+  .whyfoundationgrid .row-cols-1 .col, 
+  .whyfoundationgrid .col {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header, nav {
+    padding: 5px 10px;
+  }
+
+  .navbar-toggler {
+    /* margin: 10px auto; */
+    text-align: center;
+  }
+
+  .carousel img {
+    width: 100%;
+    height: auto !important;
+  }
+
+  .para {
+    padding: 15px;
+  }
+
+  .btigrid, .whyfoundationgrid, .courses {
+    padding: 10px;
+  }
+
+  .carousel-caption {}
+  .featurette-heading{
+    margin-bottom: 80px;
+  }
+  .graduateicon{
+    text-align: start;
+  }
+  
+}
