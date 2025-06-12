@@ -414,18 +414,19 @@ nav .drp2 li a:hover {
   }
 
   .imgcontainer {
-    width: 100% !important;
+    width: 100% ;
     text-align: center;
     margin: 10px 0;
   }
 
   .para, .imag {
-    width: 100% !important;
+    width: 100% ;
     padding: 10px;
   }
 
   .para h4, .para p {
     text-align: center;
+    margin-top: 20px;
   }
 
   .imag img {
@@ -457,6 +458,18 @@ nav .drp2 li a:hover {
     justify-content: center;
     flex-direction: column;
   }
+    .featurette-heading{
+    margin-bottom: 80px;
+  }
+    .rowferuret{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -489,5 +502,7 @@ nav .drp2 li a:hover {
   .graduateicon{
     text-align: start;
   }
-  
+
+
 }
+
