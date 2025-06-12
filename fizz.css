@@ -461,13 +461,7 @@ nav .drp2 li a:hover {
     .featurette-heading{
     margin-bottom: 80px;
   }
-    .rowferuret{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
- }
+
   
 
 }
@@ -490,6 +484,10 @@ nav .drp2 li a:hover {
   .para {
     padding: 15px;
   }
+  .pcon{
+    padding-left: 40px;
+  }
+  
 
   .btigrid, .whyfoundationgrid, .courses {
     padding: 10px;
@@ -503,6 +501,13 @@ nav .drp2 li a:hover {
     text-align: start;
   }
 
+  .crdcntn{
+    display: flex;
+    justify-content: center;
+  }
+
 
 }
+
+
 
